@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: qiu
+Start-Class: com.ruoyi.RuoYiApplication
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+Spring-Boot-Version: 2.1.1.RELEASE
+Created-By: Apache Maven 3.8.1
+Build-Jdk: 1.8.0_211
+Main-Class: org.springframework.boot.loader.WarLauncher
+
