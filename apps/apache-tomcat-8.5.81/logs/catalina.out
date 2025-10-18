@@ -2435,3 +2435,492 @@ Caused by: javax.crypto.AEADBadTagException: Tag mismatch!
 		at java.base/java.lang.Thread.run(Thread.java:840)
 17-Oct-2025 22:58:54.172 警告 [main] org.apache.tomcat.util.net.Acceptor.stop 接收器线程[http-nio-8080-Acceptor]未能干净的停止
 17-Oct-2025 22:58:54.178 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2025 22:04:12.564 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.81
+18-Oct-2025 22:04:12.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 8 2022 21:30:15 UTC
+18-Oct-2025 22:04:12.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.81.0
+18-Oct-2025 22:04:12.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-Oct-2025 22:04:12.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           26.0.1
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              aarch64
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /opt/homebrew/Cellar/openjdk@17/17.0.15/libexec/openjdk.jdk/Contents/Home
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    17.0.15+0
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Homebrew
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/conf/logging.properties
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/temp
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/Zhuanz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-Oct-2025 22:04:12.584 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Oct-2025 22:04:12.615 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 320 ms
+18-Oct-2025 22:04:12.641 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Oct-2025 22:04:12.641 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.81]
+18-Oct-2025 22:04:12.649 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT.war]
+18-Oct-2025 22:04:12.657 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT],它的最后修改时间与关联的WAR不一致.它将被删除.
+18-Oct-2025 22:04:13.089 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+18-Oct-2025 22:04:14.700 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+Application Version: 4.7.4
+Spring Boot Version: 2.5.14
+////////////////////////////////////////////////////////////////////
+//                          _ooOoo_                               //
+//                         o8888888o                              //
+//                         88" . "88                              //
+//                         (| ^_^ |)                              //
+//                         O\  =  /O                              //
+//                      ____/`---'\____                           //
+//                    .'  \\|     |//  `.                         //
+//                   /  \\|||  :  |||//  \                        //
+//                  /  _||||| -:- |||||-  \                       //
+//                  |   | \\\  -  /// |   |                       //
+//                  | \_|  ''\---/''  |   |                       //
+//                  \  .-\__  `-`  ___/-. /                       //
+//                ___`. .'  /--.--\  `. . ___                     //
+//              ."" '<  `.___\_<|>_/___.'  >'"".                  //
+//            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 //
+//            \  \ `-.   \_ __\ /__ _/   .-` /  /                 //
+//      ========`-.____`-.___\_____/___.-`____.-'========         //
+//                           `=---='                              //
+//      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //
+//             佛祖保佑       永不宕机      永无BUG               //
+////////////////////////////////////////////////////////////////////
+22:04:15.154 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+22:04:15.164 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 52723 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+22:04:15.164 [localhost-startStop-1] DEBUG c.r.RuoYiServletInitializer - [logStarting,56] - Running with Spring Boot v2.5.14, Spring v5.3.20
+22:04:15.164 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+22:04:16.207 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+22:04:16.684 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:04:17.046 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+22:04:17.050 [localhost-startStop-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - ==>  Preparing: select config_id, config_name, config_key, config_value, config_type, create_by, create_time, update_by, update_time, remark from sys_config
+22:04:17.153 [localhost-startStop-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - ==> Parameters: 
+22:04:17.183 [localhost-startStop-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - <==      Total: 10
+22:04:17.186 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.187 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.188 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.188 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.188 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.188 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.188 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.188 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.188 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.188 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:04:17.259 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:04:17.488 [localhost-startStop-1] DEBUG c.r.s.m.S.selectDictDataList - [debug,137] - ==>  Preparing: select dict_code, dict_sort, dict_label, dict_value, dict_type, css_class, list_class, is_default, status, create_by, create_time, remark from sys_dict_data WHERE status = ?
+22:04:17.493 [localhost-startStop-1] DEBUG c.r.s.m.S.selectDictDataList - [debug,137] - ==> Parameters: 0(String)
+22:04:17.504 [localhost-startStop-1] DEBUG c.r.s.m.S.selectDictDataList - [debug,137] - <==      Total: 29
+22:04:17.505 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.505 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.505 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.505 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.505 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.505 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.506 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.506 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.506 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.506 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:04:17.615 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+22:04:17.621 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+22:04:17.621 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+22:04:17.621 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+22:04:17.622 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+22:04:17.622 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+22:04:17.622 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+22:04:17.622 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6bf0f871
+22:04:17.636 [localhost-startStop-1] DEBUG c.r.q.m.S.selectJobAll - [debug,137] - ==>  Preparing: select job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, remark from sys_job
+22:04:17.636 [localhost-startStop-1] DEBUG c.r.q.m.S.selectJobAll - [debug,137] - ==> Parameters: 
+22:04:17.641 [localhost-startStop-1] DEBUG c.r.q.m.S.selectJobAll - [debug,137] - <==      Total: 3
+22:04:18.514 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+22:04:18.521 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.65 seconds (JVM running for 6.441)
+18-Oct-2025 22:04:18.540 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT.war]的部署已在[5,890]ms内完成
+18-Oct-2025 22:04:18.541 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/docs]
+18-Oct-2025 22:04:18.548 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/docs]的部署已在[7]毫秒内完成
+18-Oct-2025 22:04:18.548 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/manager]
+18-Oct-2025 22:04:18.562 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/manager]的部署已在[14]毫秒内完成
+18-Oct-2025 22:04:18.562 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/examples]
+18-Oct-2025 22:04:18.640 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/examples]的部署已在[78]毫秒内完成
+18-Oct-2025 22:04:18.640 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/host-manager]
+18-Oct-2025 22:04:18.647 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/host-manager]的部署已在[7]毫秒内完成
+18-Oct-2025 22:04:18.648 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Oct-2025 22:04:18.654 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 6039 ms
+22:05:21.809 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:05:21.810 [http-nio-8080-exec-1] DEBUG c.r.f.s.w.s.SpringSessionValidationScheduler - [enableSessionValidation,82] - Scheduling session validation job using Spring Scheduler with session validation interval of [10]ms...
+22:05:21.811 [http-nio-8080-exec-1] DEBUG c.r.f.s.w.s.SpringSessionValidationScheduler - [enableSessionValidation,104] - Session validation job successfully scheduled with Spring Scheduler.
+22:05:21.830 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:05:21.861 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:05:22.816 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:05:22.832 [schedule-pool-1] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 65185
+22:05:22.832 [schedule-pool-1] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 65805
+22:05:22.833 [schedule-pool-1] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 65821
+22:05:22.833 [schedule-pool-1] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 65837
+22:05:22.834 [schedule-pool-1] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 65858
+22:05:22.846 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:05:22.850 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-18 21:35:22(String)
+22:05:23.013 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+22:05:23.014 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:05:25.978 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==>  Preparing: select u.user_id, u.dept_id, u.login_name, u.user_name, u.user_type, u.email, u.avatar, u.phonenumber, u.sex, u.password, u.salt, u.status, u.del_flag, u.login_ip, u.login_date, u.pwd_update_date, u.create_time, u.remark, d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.status as dept_status, r.role_id, r.role_name, r.role_key, r.role_sort, r.data_scope, r.status as role_status from sys_user u left join sys_dept d on u.dept_id = d.dept_id left join sys_user_role ur on u.user_id = ur.user_id left join sys_role r on r.role_id = ur.role_id where u.login_name = ?
+22:05:25.982 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==> Parameters: admin(String)
+22:05:25.993 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - <==      Total: 1
+22:05:26.009 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==>  Preparing: update sys_user SET login_ip = ?, login_date = ?, update_time = sysdate() where user_id = ?
+22:05:26.012 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==> Parameters: 127.0.0.1(String), 2025-10-18 22:05:26.007(Timestamp), 1(Long)
+22:05:26.036 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.updateUser - [debug,137] - <==    Updates: 1
+22:05:26.037 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:05:26.040 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:05:26.093 [http-nio-8080-exec-6] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+22:05:26.095 [http-nio-8080-exec-6] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+22:05:26.103 [http-nio-8080-exec-6] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+22:05:26.104 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:05:26.104 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:05:26.104 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:05:26.105 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:05:26.105 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:05:26.105 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:05:26.105 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:05:26.105 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:05:26.108 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 2ddc6b81-bb82-4f8e-8063-3ba58de4b2e0(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-18 22:05:21.82(Timestamp), 2025-10-18 22:05:26.077(Timestamp), 1800000(Long)
+22:05:26.112 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 0(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 登录成功(String)
+22:05:26.114 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 1
+22:05:26.115 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:05:30.825 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user_online
+22:05:30.826 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==> Parameters: 
+22:05:30.829 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - <==      Total: 1
+22:05:30.832 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==>  Preparing: SELECT sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time FROM sys_user_online order by last_access_time desc LIMIT ?
+22:05:30.833 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==> Parameters: 10(Integer)
+22:05:30.834 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - <==      Total: 1
+22:05:31.941 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:05:31.949 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:05:31.962 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:05:32.017 [http-nio-8080-exec-3] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_job
+22:05:32.018 [http-nio-8080-exec-3] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - ==> Parameters: 
+22:05:32.020 [http-nio-8080-exec-3] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - <==      Total: 1
+22:05:32.023 [http-nio-8080-exec-3] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==>  Preparing: SELECT job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, remark FROM sys_job order by create_time desc LIMIT ?
+22:05:32.024 [http-nio-8080-exec-3] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==> Parameters: 10(Integer)
+22:05:32.026 [http-nio-8080-exec-3] DEBUG c.r.q.m.S.selectJobList - [debug,137] - <==      Total: 3
+22:08:03.886 [schedule-pool-4] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 151857
+22:08:03.888 [schedule-pool-4] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 157775
+22:08:03.890 [schedule-pool-4] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 157783
+22:08:03.976 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:08:03.977 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 2ddc6b81-bb82-4f8e-8063-3ba58de4b2e0(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-18 22:05:21.82(Timestamp), 2025-10-18 22:08:03.813(Timestamp), 1800000(Long)
+22:08:03.985 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+22:08:03.986 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+22:08:03.987 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 2
+22:08:03.990 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+22:08:03.991 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:03.991 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:03.992 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:03.992 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:03.992 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:03.992 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:03.992 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:07.860 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:12.706 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+22:08:12.710 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 2569a721-8106-4a93-ad1a-12d5bcb2bd95(String)
+22:08:12.714 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 0
+22:08:12.718 [http-nio-8080-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:12.747 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+22:08:12.749 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 2569a721-8106-4a93-ad1a-12d5bcb2bd95(String)
+22:08:12.751 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 0
+22:08:18.656 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+22:08:18.659 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 4accbd35-423c-4927-b87a-ae169bfa107a(String)
+22:08:18.663 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 0
+22:08:18.673 [http-nio-8080-exec-3] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:08:23.997 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+22:08:24.002 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: c3890d13-72a7-40e1-bdbc-b765b9c07b46(String)
+22:08:24.006 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 0
+22:08:24.023 [schedule-pool-3] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:08:24.024 [schedule-pool-3] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:08:24.026 [schedule-pool-3] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 1(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 验证码错误(String)
+22:08:24.028 [schedule-pool-3] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:08:28.551 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+22:08:28.554 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 1eb16ef9-56fe-49f6-914e-114766757838(String)
+22:08:28.557 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 0
+22:08:28.573 [schedule-pool-5] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:08:28.574 [schedule-pool-5] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:08:28.575 [schedule-pool-5] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 1(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 验证码错误(String)
+22:08:28.580 [schedule-pool-5] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:10:37.783 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:40.618 [http-nio-8080-exec-8] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 132037
+22:10:40.623 [http-nio-8080-exec-8] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 156634
+22:10:40.685 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==>  Preparing: select u.user_id, u.dept_id, u.login_name, u.user_name, u.user_type, u.email, u.avatar, u.phonenumber, u.sex, u.password, u.salt, u.status, u.del_flag, u.login_ip, u.login_date, u.pwd_update_date, u.create_time, u.remark, d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.status as dept_status, r.role_id, r.role_name, r.role_key, r.role_sort, r.data_scope, r.status as role_status from sys_user u left join sys_dept d on u.dept_id = d.dept_id left join sys_user_role ur on u.user_id = ur.user_id left join sys_role r on r.role_id = ur.role_id where u.login_name = ?
+22:10:40.687 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==> Parameters: admin(String)
+22:10:40.701 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - <==      Total: 1
+22:10:40.704 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==>  Preparing: update sys_user SET login_ip = ?, login_date = ?, update_time = sysdate() where user_id = ?
+22:10:40.704 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==> Parameters: 127.0.0.1(String), 2025-10-18 22:10:40.703(Timestamp), 1(Long)
+22:10:40.711 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.updateUser - [debug,137] - <==    Updates: 1
+22:10:40.715 [schedule-pool-4] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:10:40.715 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:10:40.716 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 0(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 登录成功(String)
+22:10:40.718 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:10:40.724 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+22:10:40.725 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+22:10:40.729 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+22:10:40.729 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:40.729 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:40.729 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:40.729 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:40.729 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:40.730 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:40.730 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:10:40.734 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:10:40.735 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: f0bf5e44-ffc0-4fc7-b536-ed46c3069007(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-18 22:08:28.56(Timestamp), 2025-10-18 22:10:40.722(Timestamp), 1800000(Long)
+22:10:40.737 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 1
+22:10:44.565 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:10:44.743 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectDeptList - [debug,137] - ==>  Preparing: select d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.phone, d.email, d.status, d.del_flag, d.create_by, d.create_time from sys_dept d where d.del_flag = '0' order by d.parent_id, d.order_num
+22:10:44.744 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectDeptList - [debug,137] - ==> Parameters: 
+22:10:44.746 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectDeptList - [debug,137] - <==      Total: 10
+22:10:44.749 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user u LEFT JOIN sys_dept d ON u.dept_id = d.dept_id WHERE u.del_flag = '0'
+22:10:44.750 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserList_COUNT - [debug,137] - ==> Parameters: 
+22:10:44.752 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserList_COUNT - [debug,137] - <==      Total: 1
+22:10:44.755 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserList - [debug,137] - ==>  Preparing: SELECT u.user_id, u.dept_id, u.login_name, u.user_name, u.user_type, u.email, u.avatar, u.phonenumber, u.password, u.sex, u.salt, u.status, u.del_flag, u.login_ip, u.login_date, u.create_by, u.create_time, u.remark, d.dept_name, d.leader FROM sys_user u LEFT JOIN sys_dept d ON u.dept_id = d.dept_id WHERE u.del_flag = '0' order by create_time desc LIMIT ?
+22:10:44.757 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserList - [debug,137] - ==> Parameters: 10(Integer)
+22:10:44.758 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserList - [debug,137] - <==      Total: 2
+22:10:47.163 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user_online
+22:10:47.164 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==> Parameters: 
+22:10:47.167 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - <==      Total: 1
+22:10:47.169 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==>  Preparing: SELECT sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time FROM sys_user_online order by last_access_time desc LIMIT ?
+22:10:47.169 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==> Parameters: 10(Integer)
+22:10:47.170 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - <==      Total: 1
+22:15:22.804 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:15:22.832 [schedule-pool-3] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 275659
+22:15:22.934 [schedule-pool-3] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:15:22.940 [schedule-pool-3] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-18 21:45:22(String)
+22:15:22.957 [schedule-pool-3] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+22:15:22.958 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:15:44.223 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+22:15:44.233 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+22:15:44.244 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+22:15:44.245 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:44.245 [schedule-pool-5] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:15:44.246 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:44.246 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:44.247 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:44.247 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:44.247 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:44.247 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:44.248 [schedule-pool-5] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: f0bf5e44-ffc0-4fc7-b536-ed46c3069007(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-18 22:08:28.56(Timestamp), 2025-10-18 22:15:44.208(Timestamp), 1800000(Long)
+22:15:44.263 [schedule-pool-5] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 2
+22:15:44.710 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user_online
+22:15:44.721 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==> Parameters: 
+22:15:44.737 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - <==      Total: 1
+22:15:44.743 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==>  Preparing: SELECT sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time FROM sys_user_online order by last_access_time desc LIMIT ?
+22:15:44.744 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==> Parameters: 10(Integer)
+22:15:44.751 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - <==      Total: 1
+22:15:47.823 [http-nio-8080-exec-3] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:51.346 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+22:15:51.355 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 234243c7-fd9c-49e7-bbfc-c9f87cc5958b(String)
+22:15:51.358 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 0
+22:15:51.378 [schedule-pool-4] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:15:51.379 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:15:51.384 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 1(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 验证码错误(String)
+22:15:51.392 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:15:58.810 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==>  Preparing: select u.user_id, u.dept_id, u.login_name, u.user_name, u.user_type, u.email, u.avatar, u.phonenumber, u.sex, u.password, u.salt, u.status, u.del_flag, u.login_ip, u.login_date, u.pwd_update_date, u.create_time, u.remark, d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.status as dept_status, r.role_id, r.role_name, r.role_key, r.role_sort, r.data_scope, r.status as role_status from sys_user u left join sys_dept d on u.dept_id = d.dept_id left join sys_user_role ur on u.user_id = ur.user_id left join sys_role r on r.role_id = ur.role_id where u.login_name = ?
+22:15:58.813 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==> Parameters: admin(String)
+22:15:58.819 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - <==      Total: 1
+22:15:58.822 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==>  Preparing: update sys_user SET login_ip = ?, login_date = ?, update_time = sysdate() where user_id = ?
+22:15:58.824 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==> Parameters: 127.0.0.1(String), 2025-10-18 22:15:58.821(Timestamp), 1(Long)
+22:15:58.829 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.updateUser - [debug,137] - <==    Updates: 1
+22:15:58.832 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:15:58.836 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:15:58.838 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 0(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 登录成功(String)
+22:15:58.851 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:15:58.870 [http-nio-8080-exec-6] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+22:15:58.872 [http-nio-8080-exec-6] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+22:15:58.877 [http-nio-8080-exec-6] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+22:15:58.878 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:58.878 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:58.878 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:58.878 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:58.879 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:58.879 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:58.879 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:58.879 [schedule-pool-6] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:15:58.880 [schedule-pool-6] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: d85780d0-86fc-479a-8adc-7675086e4359(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-18 22:15:51.362(Timestamp), 2025-10-18 22:15:58.864(Timestamp), 1800000(Long)
+22:15:58.882 [schedule-pool-6] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 1
+22:16:02.684 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user_online
+22:16:02.685 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==> Parameters: 
+22:16:02.687 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - <==      Total: 1
+22:16:02.688 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==>  Preparing: SELECT sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time FROM sys_user_online order by last_access_time desc LIMIT ?
+22:16:02.689 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==> Parameters: 10(Integer)
+22:16:02.692 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - <==      Total: 1
+22:16:03.923 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:16:07.114 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:25:22.790 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:25:22.823 [schedule-pool-1] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 560127
+22:25:22.826 [schedule-pool-1] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 578573
+22:25:22.925 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:25:22.928 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-18 21:55:22(String)
+22:25:22.948 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+22:25:22.949 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:35:22.775 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:35:22.812 [schedule-pool-3] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 599861
+22:35:22.944 [schedule-pool-3] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:35:22.950 [schedule-pool-3] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-18 22:05:22(String)
+22:35:22.974 [schedule-pool-3] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+22:35:22.975 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:45:22.702 [schedule-pool-10] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:45:22.736 [schedule-pool-10] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 599757
+22:45:22.848 [schedule-pool-10] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:45:22.851 [schedule-pool-10] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-18 22:15:22(String)
+22:45:22.872 [schedule-pool-10] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+22:45:22.872 [schedule-pool-10] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:49:45.083 [http-nio-8080-exec-3] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 262211
+22:49:45.136 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+22:49:45.137 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: d85780d0-86fc-479a-8adc-7675086e4359(String)
+22:49:45.152 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 1
+22:49:45.153 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - ==>  Preparing: delete from sys_user_online where sessionId = ?
+22:49:45.155 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - ==> Parameters: d85780d0-86fc-479a-8adc-7675086e4359(String)
+22:49:45.167 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - <==    Updates: 1
+22:49:45.171 [http-nio-8080-exec-3] WARN  o.a.s.m.AbstractRememberMeManager - [onRememberedPrincipalFailure,449] - There was a failure while trying to retrieve remembered principals.  This could be due to a configuration problem or corrupted principals.  This could also be due to a recently changed encryption key, if you are using a shiro.ini file, this property would be 'securityManager.rememberMeManager.cipherKey' see: http://shiro.apache.org/web.html#Web-RememberMeServices. The remembered identity will be forgotten and not used for this request.
+22:49:45.200 [http-nio-8080-exec-3] WARN  o.a.s.m.DefaultSecurityManager - [getRememberedIdentity,618] - Delegate RememberMeManager instance of type [org.apache.shiro.web.mgt.CookieRememberMeManager] threw an exception during getRememberedPrincipals().
+org.apache.shiro.crypto.CryptoException: Unable to execute 'doFinal' with cipher instance [Cipher.AES/GCM/NoPadding, mode: decryption, algorithm from: SunJCE].
+	at org.apache.shiro.crypto.JcaCipherService.crypt(JcaCipherService.java:462)
+	at org.apache.shiro.crypto.JcaCipherService.crypt(JcaCipherService.java:445)
+	at org.apache.shiro.crypto.JcaCipherService.decrypt(JcaCipherService.java:390)
+	at org.apache.shiro.crypto.JcaCipherService.decrypt(JcaCipherService.java:382)
+	at org.apache.shiro.mgt.AbstractRememberMeManager.decrypt(AbstractRememberMeManager.java:482)
+	at org.apache.shiro.mgt.AbstractRememberMeManager.convertBytesToPrincipals(AbstractRememberMeManager.java:419)
+	at org.apache.shiro.mgt.AbstractRememberMeManager.getRememberedPrincipals(AbstractRememberMeManager.java:386)
+	at org.apache.shiro.mgt.DefaultSecurityManager.getRememberedIdentity(DefaultSecurityManager.java:613)
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolvePrincipals(DefaultSecurityManager.java:501)
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:347)
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:845)
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:126)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:64)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1691)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: javax.crypto.AEADBadTagException: Tag mismatch!
+	at java.base/com.sun.crypto.provider.GaloisCounterMode$GCMDecrypt.doFinal(GaloisCounterMode.java:1395)
+	at java.base/com.sun.crypto.provider.GaloisCounterMode.engineDoFinal(GaloisCounterMode.java:406)
+	at java.base/javax.crypto.Cipher.doFinal(Cipher.java:2205)
+	at org.apache.shiro.crypto.JcaCipherService.crypt(JcaCipherService.java:459)
+	... 55 common frames omitted
+22:49:45.209 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:49.218 [schedule-pool-5] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Error][验证码错误]
+22:49:49.220 [schedule-pool-5] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:49:49.222 [schedule-pool-5] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 1(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 验证码错误(String)
+22:49:49.228 [schedule-pool-5] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:49:51.428 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==>  Preparing: select u.user_id, u.dept_id, u.login_name, u.user_name, u.user_type, u.email, u.avatar, u.phonenumber, u.sex, u.password, u.salt, u.status, u.del_flag, u.login_ip, u.login_date, u.pwd_update_date, u.create_time, u.remark, d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.status as dept_status, r.role_id, r.role_name, r.role_key, r.role_sort, r.data_scope, r.status as role_status from sys_user u left join sys_dept d on u.dept_id = d.dept_id left join sys_user_role ur on u.user_id = ur.user_id left join sys_role r on r.role_id = ur.role_id where u.login_name = ?
+22:49:51.430 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==> Parameters: admin(String)
+22:49:51.437 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - <==      Total: 1
+22:49:51.440 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==>  Preparing: update sys_user SET login_ip = ?, login_date = ?, update_time = sysdate() where user_id = ?
+22:49:51.441 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==> Parameters: 127.0.0.1(String), 2025-10-18 22:49:51.439(Timestamp), 1(Long)
+22:49:51.444 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.updateUser - [debug,137] - <==    Updates: 1
+22:49:51.451 [schedule-pool-4] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:49:51.452 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:49:51.453 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 0(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 登录成功(String)
+22:49:51.457 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:49:51.493 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+22:49:51.494 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+22:49:51.497 [http-nio-8080-exec-5] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+22:49:51.498 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:51.498 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:51.498 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:51.498 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:51.498 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:51.498 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:51.499 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:51.499 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:49:51.499 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 55f22dcd-b9fa-4198-b913-6a470a76b3f4(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-18 22:49:45.2(Timestamp), 2025-10-18 22:49:51.463(Timestamp), 1800000(Long)
+22:49:51.501 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 1
+22:49:55.360 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user_online
+22:49:55.361 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==> Parameters: 
+22:49:55.365 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - <==      Total: 1
+22:49:55.367 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==>  Preparing: SELECT sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time FROM sys_user_online order by last_access_time desc LIMIT ?
+22:49:55.368 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==> Parameters: 10(Integer)
+22:49:55.369 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - <==      Total: 1
+22:51:06.941 [http-nio-8080-exec-2] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 71571
+22:51:06.973 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==>  Preparing: select u.user_id, u.dept_id, u.login_name, u.user_name, u.user_type, u.email, u.avatar, u.phonenumber, u.sex, u.password, u.salt, u.status, u.del_flag, u.login_ip, u.login_date, u.pwd_update_date, u.create_time, u.remark, d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.status as dept_status, r.role_id, r.role_name, r.role_key, r.role_sort, r.data_scope, r.status as role_status from sys_user u left join sys_dept d on u.dept_id = d.dept_id left join sys_user_role ur on u.user_id = ur.user_id left join sys_role r on r.role_id = ur.role_id where u.login_name = ?
+22:51:06.978 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==> Parameters: admin(String)
+22:51:06.983 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - <==      Total: 1
+22:51:06.987 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==>  Preparing: update sys_user SET login_ip = ?, login_date = ?, update_time = sysdate() where user_id = ?
+22:51:06.988 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==> Parameters: 127.0.0.1(String), 2025-10-18 22:51:06.986(Timestamp), 1(Long)
+22:51:06.990 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.updateUser - [debug,137] - <==    Updates: 1
+22:51:06.997 [schedule-pool-6] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:51:06.999 [schedule-pool-6] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+22:51:07.000 [schedule-pool-6] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 0(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 登录成功(String)
+22:51:07.002 [schedule-pool-6] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+22:51:07.009 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+22:51:07.010 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+22:51:07.012 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+22:51:07.012 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:51:07.013 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:51:07.013 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:51:07.014 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:51:07.014 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:51:07.014 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:51:07.015 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:51:07.021 [schedule-pool-7] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:51:07.022 [schedule-pool-7] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 4fd6bb24-0ed2-40ff-acf0-f4891afcaecd(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-18 22:51:03.299(Timestamp), 2025-10-18 22:51:07.003(Timestamp), 1800000(Long)
+22:51:07.026 [schedule-pool-7] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 1
+22:51:09.072 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user_online
+22:51:09.073 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==> Parameters: 
+22:51:09.075 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - <==      Total: 1
+22:51:09.077 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==>  Preparing: SELECT sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time FROM sys_user_online order by last_access_time desc LIMIT ?
+22:51:09.078 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==> Parameters: 10(Integer)
+22:51:09.079 [http-nio-8080-exec-10] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - <==      Total: 1
+22:51:09.929 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:51:09.930 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:51:09.936 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:51:09.978 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_job
+22:51:09.978 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - ==> Parameters: 
+22:51:09.979 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - <==      Total: 1
+22:51:09.982 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==>  Preparing: SELECT job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, remark FROM sys_job order by create_time desc LIMIT ?
+22:51:09.983 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==> Parameters: 10(Integer)
+22:51:09.986 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - <==      Total: 3

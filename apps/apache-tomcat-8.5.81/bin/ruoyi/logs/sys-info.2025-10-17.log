@@ -1,0 +1,621 @@
+11:10:26.741 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+11:10:26.753 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 40314 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+11:10:26.753 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+11:10:27.826 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+11:10:28.337 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+11:10:28.667 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+11:10:28.904 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.906 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.906 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.906 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.906 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.906 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.906 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.907 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.907 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.907 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:10:28.986 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+11:10:29.210 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.210 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.210 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.210 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.210 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.210 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.210 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.211 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.211 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.211 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:10:29.320 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+11:10:29.326 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:10:29.326 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+11:10:29.327 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+11:10:29.327 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:10:29.327 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:10:29.327 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+11:10:29.327 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@11330c12
+11:10:30.243 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:10:30.250 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.771 seconds (JVM running for 6.339)
+11:18:04.004 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+11:18:04.016 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 40510 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+11:18:04.017 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+11:18:05.068 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+11:18:05.576 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+11:18:05.949 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+11:18:06.085 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.087 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.087 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.087 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.087 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.088 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.088 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.088 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.088 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.088 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:06.165 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+11:18:06.403 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.403 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.403 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.404 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.404 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.404 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.404 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.404 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.404 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.404 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:18:06.519 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+11:18:06.525 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:18:06.525 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+11:18:06.526 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+11:18:06.526 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:18:06.526 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:18:06.526 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+11:18:06.526 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3b4dc2f9
+11:18:07.433 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:18:07.441 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.703 seconds (JVM running for 6.152)
+11:18:39.076 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+11:18:39.082 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+11:18:39.186 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:18:40.083 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+11:18:40.232 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+11:18:42.973 [http-nio-8080-exec-8] INFO  c.r.f.s.r.UserRealm - [doGetAuthenticationInfo,128] - 对用户[admin]进行登录验证..验证未通过No message found under code 'user.login.success' for locale 'zh_CN'.
+11:19:00.015 [http-nio-8080-exec-6] INFO  c.r.f.s.r.UserRealm - [doGetAuthenticationInfo,128] - 对用户[admin]进行登录验证..验证未通过No message found under code 'user.login.success' for locale 'zh_CN'.
+11:19:09.291 [http-nio-8080-exec-8] INFO  c.r.f.s.r.UserRealm - [doGetAuthenticationInfo,128] - 对用户[admin]进行登录验证..验证未通过No message found under code 'user.login.success' for locale 'zh_CN'.
+11:19:54.509 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+11:19:54.519 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 40575 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+11:19:54.519 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+11:19:55.681 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+11:19:56.175 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+11:19:56.518 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+11:19:56.651 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.653 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.654 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.654 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.654 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.654 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.654 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.654 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.655 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.655 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:19:56.738 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.976 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:56.977 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:19:57.106 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+11:19:57.113 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:19:57.113 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+11:19:57.114 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+11:19:57.114 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:19:57.114 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:19:57.114 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+11:19:57.114 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3b09184b
+11:19:58.042 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:19:58.052 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.877 seconds (JVM running for 6.269)
+11:21:47.893 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+11:21:47.902 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 40641 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+11:21:47.903 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+11:21:48.974 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+11:21:49.480 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+11:21:49.751 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+11:21:49.885 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.887 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.887 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.887 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.888 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.888 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.888 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.888 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.888 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.888 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:49.963 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+11:21:50.179 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.179 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.180 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.180 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.180 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.180 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.180 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.180 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.180 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.180 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+11:21:50.286 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+11:21:50.292 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+11:21:50.292 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+11:21:50.292 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+11:21:50.293 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+11:21:50.293 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+11:21:50.293 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+11:21:50.293 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@22020988
+11:21:51.191 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+11:21:51.199 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.603 seconds (JVM running for 5.938)
+11:21:51.382 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+11:21:51.386 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+11:21:51.437 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:52.388 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+11:21:52.393 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+11:21:59.136 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+11:21:59.201 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:59.201 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:59.201 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:59.201 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:59.201 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:59.201 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:21:59.201 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+11:47:18.178 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+11:47:18.306 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+11:57:18.143 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+11:57:18.267 [schedule-pool-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+11:57:18.282 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. [1] sessions were stopped.
+12:07:18.115 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+12:07:18.263 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+12:08:51.795 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:08:51.795 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:08:51.795 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:08:51.796 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:08:51.796 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:08:51.796 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:08:51.796 [http-nio-8080-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:10:26.059 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:10:26.059 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:10:26.060 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:10:26.060 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:10:26.060 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:10:26.060 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:10:26.060 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:17:18.084 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+12:17:18.137 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+12:18:45.920 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+12:18:45.928 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 42416 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+12:18:45.929 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+12:18:47.044 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+12:18:47.558 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+12:18:47.893 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+12:18:48.021 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.024 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.024 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.024 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.024 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.024 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.024 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.025 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.025 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.025 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:18:48.109 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+12:18:48.346 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.347 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:18:48.454 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+12:18:48.460 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+12:18:48.460 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+12:18:48.461 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+12:18:48.461 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+12:18:48.461 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+12:18:48.461 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+12:18:48.461 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3665a71f
+12:18:49.434 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+12:18:49.442 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.838 seconds (JVM running for 6.215)
+12:29:11.114 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+12:29:11.123 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 42755 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+12:29:11.124 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+12:29:12.215 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+12:29:12.733 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+12:29:13.102 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+12:29:13.235 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.239 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.239 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.240 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.240 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.240 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.240 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.240 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.240 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.241 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:29:13.330 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+12:29:13.554 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.554 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.554 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.554 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.554 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.554 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.555 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.555 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.555 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.555 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:29:13.660 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+12:29:13.666 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+12:29:13.666 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+12:29:13.667 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+12:29:13.667 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+12:29:13.667 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+12:29:13.667 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+12:29:13.667 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7cc9f13
+12:29:14.574 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+12:29:14.583 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.745 seconds (JVM running for 6.178)
+12:31:42.904 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+12:31:42.926 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 42819 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+12:31:42.926 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+12:31:44.358 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+12:31:44.995 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+12:31:45.387 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+12:31:45.562 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.564 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.565 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.565 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.565 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.565 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.565 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.565 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.565 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.566 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:45.660 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+12:31:45.827 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+12:31:45.844 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 42828 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+12:31:45.845 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+12:31:45.952 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.952 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.952 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.952 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.952 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.953 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.953 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.953 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.953 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:45.953 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:46.097 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+12:31:46.105 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+12:31:46.105 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+12:31:46.105 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+12:31:46.106 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+12:31:46.106 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+12:31:46.106 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+12:31:46.106 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1d75fffe
+12:31:47.377 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+12:31:47.385 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 4.765 seconds (JVM running for 7.098)
+12:31:47.431 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+12:31:48.022 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+12:31:48.351 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+12:31:48.520 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.522 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.523 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.523 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.523 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.523 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.523 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.523 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.523 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.524 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+12:31:48.691 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+12:31:48.944 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.944 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.944 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.944 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.944 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.945 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.945 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.945 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.945 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:48.945 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+12:31:49.054 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+12:31:49.061 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+12:31:49.061 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+12:31:49.061 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+12:31:49.061 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+12:31:49.062 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+12:31:49.062 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+12:31:49.062 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@535a6b2f
+12:31:49.950 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+12:31:49.957 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 4.478 seconds (JVM running for 7.106)
+13:27:27.779 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+13:27:27.789 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 43321 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+13:27:27.789 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+13:27:28.925 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+13:27:29.464 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+13:27:29.857 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+13:27:29.991 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.993 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.993 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.993 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.993 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.994 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.994 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.994 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.994 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:29.994 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:27:30.072 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+13:27:30.294 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.295 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.295 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.295 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.295 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.295 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.296 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.296 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.296 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.296 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:27:30.411 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+13:27:30.418 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:27:30.418 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+13:27:30.419 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+13:27:30.419 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13:27:30.419 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+13:27:30.419 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+13:27:30.419 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4b24ff8
+13:27:31.424 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+13:27:31.433 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.927 seconds (JVM running for 6.429)
+13:30:19.241 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+13:30:19.248 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 43360 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+13:30:19.249 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+13:30:20.296 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+13:30:20.814 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+13:30:21.171 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+13:30:21.309 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.311 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.311 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.312 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.312 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.312 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.312 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.312 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.312 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.312 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:21.392 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+13:30:21.604 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.605 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:21.710 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+13:30:21.716 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13:30:21.716 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+13:30:21.717 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+13:30:21.717 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13:30:21.717 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+13:30:21.717 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+13:30:21.717 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@29d083d3
+13:30:22.590 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+13:30:22.597 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.627 seconds (JVM running for 6.086)
+13:30:31.910 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+13:30:31.915 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+13:30:32.023 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:32.916 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+13:30:33.065 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+13:30:38.880 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+13:30:38.926 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:38.926 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:38.927 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:38.927 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:38.927 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:38.927 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:38.927 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:30:57.317 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:57.328 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:30:57.344 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:31:42.715 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:31:42.715 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:31:42.715 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:31:42.715 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:31:42.715 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:31:42.715 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:31:42.715 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:20.425 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:20.426 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:20.426 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:20.426 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:20.426 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:20.426 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:20.426 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:25.513 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:25.516 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:27.376 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:27.376 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:27.376 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:27.376 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:27.376 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:27.376 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:27.376 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:28.971 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:28.973 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:36.297 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:36.298 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:36.298 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:36.298 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:36.299 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:36.299 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:34:36.299 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:40:32.945 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+13:40:33.039 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+13:43:22.150 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:43:22.150 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:43:22.151 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:43:22.151 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:43:22.151 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:43:22.151 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:43:22.151 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:43:51.500 [http-nio-8080-exec-3] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:43:51.508 [http-nio-8080-exec-3] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+13:45:27.934 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:45:27.934 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:45:27.934 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:45:27.935 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:45:27.935 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:45:27.935 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:45:27.935 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+13:50:32.942 [schedule-pool-5] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+13:50:33.088 [schedule-pool-5] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+14:00:32.929 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+14:00:33.018 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+14:10:32.910 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+14:10:32.970 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+14:20:32.900 [schedule-pool-8] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+14:20:33.073 [schedule-pool-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+14:20:33.098 [schedule-pool-8] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. [1] sessions were stopped.
+14:30:32.883 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+14:30:32.938 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+14:40:32.808 [schedule-pool-9] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+14:40:32.867 [schedule-pool-9] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+14:50:32.796 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+14:50:32.909 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+15:00:32.808 [schedule-pool-6] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+15:00:32.868 [schedule-pool-6] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+15:25:38.986 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+15:25:39.171 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+15:35:38.966 [schedule-pool-5] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+15:35:39.128 [schedule-pool-5] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+15:45:38.949 [schedule-pool-10] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+15:45:39.096 [schedule-pool-10] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+15:55:38.927 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+15:55:39.071 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+16:05:38.911 [schedule-pool-11] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+16:05:39.098 [schedule-pool-11] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+16:51:00.790 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+16:51:00.997 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+17:01:00.760 [schedule-pool-12] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+17:01:00.810 [schedule-pool-12] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+17:11:00.741 [schedule-pool-8] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+17:11:00.864 [schedule-pool-8] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+19:40:08.926 [schedule-pool-13] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+19:40:09.089 [schedule-pool-13] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+19:50:08.901 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+19:50:09.054 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+20:00:08.878 [schedule-pool-14] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+20:00:08.938 [schedule-pool-14] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+20:10:08.853 [schedule-pool-9] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+20:10:08.982 [schedule-pool-9] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+20:20:08.816 [schedule-pool-15] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+20:20:08.904 [schedule-pool-15] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+20:30:08.792 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+20:30:08.988 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+20:40:08.767 [schedule-pool-16] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+20:40:08.948 [schedule-pool-16] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+20:50:08.737 [schedule-pool-6] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+20:50:08.859 [schedule-pool-6] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+21:00:08.712 [schedule-pool-17] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:00:08.892 [schedule-pool-17] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+21:10:08.754 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:10:08.937 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+21:20:08.748 [schedule-pool-18] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:20:08.806 [schedule-pool-18] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+21:30:08.745 [schedule-pool-5] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:30:08.893 [schedule-pool-5] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+21:40:08.685 [schedule-pool-19] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:40:08.841 [schedule-pool-19] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+21:50:08.669 [schedule-pool-10] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:50:08.723 [schedule-pool-10] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:00:08.639 [schedule-pool-20] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:00:08.675 [schedule-pool-20] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:28:00.026 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:28:00.210 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:38:00.000 [schedule-pool-21] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:38:00.169 [schedule-pool-21] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:47:59.975 [schedule-pool-11] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:48:00.159 [schedule-pool-11] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:57:59.960 [schedule-pool-22] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:58:00.146 [schedule-pool-22] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.

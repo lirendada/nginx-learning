@@ -1,0 +1,45 @@
+18-Oct-2025 22:04:12.564 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.81
+18-Oct-2025 22:04:12.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 8 2022 21:30:15 UTC
+18-Oct-2025 22:04:12.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.81.0
+18-Oct-2025 22:04:12.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+18-Oct-2025 22:04:12.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           26.0.1
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              aarch64
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /opt/homebrew/Cellar/openjdk@17/17.0.15/libexec/openjdk.jdk/Contents/Home
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    17.0.15+0
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Homebrew
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+18-Oct-2025 22:04:12.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/conf/logging.properties
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/temp
+18-Oct-2025 22:04:12.567 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/Zhuanz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+18-Oct-2025 22:04:12.584 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+18-Oct-2025 22:04:12.615 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 320 ms
+18-Oct-2025 22:04:12.641 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+18-Oct-2025 22:04:12.641 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.81]
+18-Oct-2025 22:04:12.649 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT.war]
+18-Oct-2025 22:04:12.657 信息 [localhost-startStop-1] org.apache.catalina.startup.ExpandWar.expand 发现一个展开的目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT],它的最后修改时间与关联的WAR不一致.它将被删除.
+18-Oct-2025 22:04:13.089 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+18-Oct-2025 22:04:14.700 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+18-Oct-2025 22:04:18.540 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT.war]的部署已在[5,890]ms内完成
+18-Oct-2025 22:04:18.541 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/docs]
+18-Oct-2025 22:04:18.548 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/docs]的部署已在[7]毫秒内完成
+18-Oct-2025 22:04:18.548 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/manager]
+18-Oct-2025 22:04:18.562 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/manager]的部署已在[14]毫秒内完成
+18-Oct-2025 22:04:18.562 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/examples]
+18-Oct-2025 22:04:18.640 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/examples]的部署已在[78]毫秒内完成
+18-Oct-2025 22:04:18.640 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/host-manager]
+18-Oct-2025 22:04:18.647 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/host-manager]的部署已在[7]毫秒内完成
+18-Oct-2025 22:04:18.648 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+18-Oct-2025 22:04:18.654 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 6039 ms
