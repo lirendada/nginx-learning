@@ -1,0 +1,97 @@
+19-Oct-2025 21:25:00.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.81
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 8 2022 21:30:15 UTC
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.81.0
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           26.0.1
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              aarch64
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /opt/homebrew/Cellar/openjdk@17/17.0.15/libexec/openjdk.jdk/Contents/Home
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    17.0.15+0
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Homebrew
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/conf/logging.properties
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/temp
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/Zhuanz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+19-Oct-2025 21:25:00.344 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Oct-2025 21:25:00.361 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 256 ms
+19-Oct-2025 21:25:00.381 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Oct-2025 21:25:00.381 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.81]
+19-Oct-2025 21:25:00.389 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT.war]
+19-Oct-2025 21:25:00.567 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Oct-2025 21:25:02.249 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+19-Oct-2025 21:25:06.222 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT.war]的部署已在[5,832]ms内完成
+19-Oct-2025 21:25:06.223 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/docs]
+19-Oct-2025 21:25:06.231 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/docs]的部署已在[8]毫秒内完成
+19-Oct-2025 21:25:06.231 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/manager]
+19-Oct-2025 21:25:06.246 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/manager]的部署已在[14]毫秒内完成
+19-Oct-2025 21:25:06.246 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/examples]
+19-Oct-2025 21:25:06.322 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/examples]的部署已在[76]毫秒内完成
+19-Oct-2025 21:25:06.323 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/host-manager]
+19-Oct-2025 21:25:06.329 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/host-manager]的部署已在[6]毫秒内完成
+19-Oct-2025 21:25:06.330 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Oct-2025 21:25:06.336 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5974 ms
+19-Oct-2025 22:41:49.373 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+19-Oct-2025 22:41:49.375 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+19-Oct-2025 22:41:50.382 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ java.base@17.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-1]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-2]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-3]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-4]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-5]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-6]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-7]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-8]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-9]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-10]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.475 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[ROOT]创建了一个ThreadLocal，其键类型为[com.sun.jna.Structure$2]（值为[com.sun.jna.Structure$2@574a8606]），值类型为[com.sun.jna.Structure.StructureSet]（值为[[]），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+19-Oct-2025 22:41:50.485 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+19-Oct-2025 22:41:50.811 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+	java.lang.IllegalStateException: 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+19-Oct-2025 22:42:00.491 警告 [main] org.apache.tomcat.util.net.Acceptor.stop 接收器线程[http-nio-8080-Acceptor]未能干净的停止
+19-Oct-2025 22:42:00.498 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]

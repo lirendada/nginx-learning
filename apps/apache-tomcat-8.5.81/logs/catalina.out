@@ -2924,3 +2924,522 @@ Caused by: javax.crypto.AEADBadTagException: Tag mismatch!
 22:51:09.982 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==>  Preparing: SELECT job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, remark FROM sys_job order by create_time desc LIMIT ?
 22:51:09.983 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==> Parameters: 10(Integer)
 22:51:09.986 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - <==      Total: 3
+18-Oct-2025 22:53:55.634 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+18-Oct-2025 22:53:55.636 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+18-Oct-2025 22:53:56.644 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ java.base@17.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-1]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-2]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-3]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-4]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-5]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-6]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-7]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.751 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-8]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.752 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-9]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.752 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-10]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+18-Oct-2025 22:53:56.753 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[ROOT]创建了一个ThreadLocal，其键类型为[com.sun.jna.Structure$2]（值为[com.sun.jna.Structure$2@67f44943]），值类型为[com.sun.jna.Structure.StructureSet]（值为[[]），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+18-Oct-2025 22:53:56.769 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+18-Oct-2025 22:53:59.155 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+	java.lang.IllegalStateException: 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+18-Oct-2025 22:54:06.775 警告 [main] org.apache.tomcat.util.net.Acceptor.stop 接收器线程[http-nio-8080-Acceptor]未能干净的停止
+18-Oct-2025 22:54:06.781 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2025 21:25:00.325 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.81
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jun 8 2022 21:30:15 UTC
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      8.5.81.0
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           26.0.1
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              aarch64
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /opt/homebrew/Cellar/openjdk@17/17.0.15/libexec/openjdk.jdk/Contents/Home
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    17.0.15+0
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Homebrew
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+19-Oct-2025 21:25:00.327 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/conf/logging.properties
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/temp
+19-Oct-2025 21:25:00.328 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/Zhuanz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+19-Oct-2025 21:25:00.344 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+19-Oct-2025 21:25:00.361 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 256 ms
+19-Oct-2025 21:25:00.381 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+19-Oct-2025 21:25:00.381 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/8.5.81]
+19-Oct-2025 21:25:00.389 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT.war]
+19-Oct-2025 21:25:00.567 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+19-Oct-2025 21:25:02.249 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+Application Version: 4.7.4
+Spring Boot Version: 2.5.14
+////////////////////////////////////////////////////////////////////
+//                          _ooOoo_                               //
+//                         o8888888o                              //
+//                         88" . "88                              //
+//                         (| ^_^ |)                              //
+//                         O\  =  /O                              //
+//                      ____/`---'\____                           //
+//                    .'  \\|     |//  `.                         //
+//                   /  \\|||  :  |||//  \                        //
+//                  /  _||||| -:- |||||-  \                       //
+//                  |   | \\\  -  /// |   |                       //
+//                  | \_|  ''\---/''  |   |                       //
+//                  \  .-\__  `-`  ___/-. /                       //
+//                ___`. .'  /--.--\  `. . ___                     //
+//              ."" '<  `.___\_<|>_/___.'  >'"".                  //
+//            | | :  `- \`.;`\ _ /`;.`/ - ` : | |                 //
+//            \  \ `-.   \_ __\ /__ _/   .-` /  /                 //
+//      ========`-.____`-.___\_____/___.-`____.-'========         //
+//                           `=---='                              //
+//      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        //
+//             佛祖保佑       永不宕机      永无BUG               //
+////////////////////////////////////////////////////////////////////
+21:25:02.660 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+21:25:02.669 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarting,55] - Starting RuoYiServletInitializer using Java 17.0.15 on MacBook-Air.local with PID 59198 (/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT/WEB-INF/classes started by Zhuanz in /Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/bin)
+21:25:02.669 [localhost-startStop-1] DEBUG c.r.RuoYiServletInitializer - [logStarting,56] - Running with Spring Boot v2.5.14, Spring v5.3.20
+21:25:02.669 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStartupProfileInfo,686] - The following 1 profile is active: "druid"
+21:25:03.888 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-authCache]
+21:25:04.434 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:25:04.731 [localhost-startStop-1] INFO  c.a.d.p.DruidDataSource - [init,998] - {dataSource-1} inited
+21:25:04.735 [localhost-startStop-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - ==>  Preparing: select config_id, config_name, config_key, config_value, config_type, create_by, create_time, update_by, update_time, remark from sys_config
+21:25:04.839 [localhost-startStop-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - ==> Parameters: 
+21:25:04.859 [localhost-startStop-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - <==      Total: 10
+21:25:04.861 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.863 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.863 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.863 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.863 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.864 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.864 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.864 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.864 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.864 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:04.941 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:25:05.149 [localhost-startStop-1] DEBUG c.r.s.m.S.selectDictDataList - [debug,137] - ==>  Preparing: select dict_code, dict_sort, dict_label, dict_value, dict_type, css_class, list_class, is_default, status, create_by, create_time, remark from sys_dict_data WHERE status = ?
+21:25:05.155 [localhost-startStop-1] DEBUG c.r.s.m.S.selectDictDataList - [debug,137] - ==> Parameters: 0(String)
+21:25:05.161 [localhost-startStop-1] DEBUG c.r.s.m.S.selectDictDataList - [debug,137] - <==      Total: 29
+21:25:05.161 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.162 [localhost-startStop-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:05.271 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+21:25:05.278 [localhost-startStop-1] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+21:25:05.278 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+21:25:05.279 [localhost-startStop-1] INFO  o.q.s.RAMJobStore - [initialize,155] - RAMJobStore initialized.
+21:25:05.279 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+21:25:05.279 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+21:25:05.279 [localhost-startStop-1] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+21:25:05.279 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@43ceb57f
+21:25:05.291 [localhost-startStop-1] DEBUG c.r.q.m.S.selectJobAll - [debug,137] - ==>  Preparing: select job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, remark from sys_job
+21:25:05.291 [localhost-startStop-1] DEBUG c.r.q.m.S.selectJobAll - [debug,137] - ==> Parameters: 
+21:25:05.293 [localhost-startStop-1] DEBUG c.r.q.m.S.selectJobAll - [debug,137] - <==      Total: 3
+21:25:06.195 [localhost-startStop-1] INFO  o.q.c.QuartzScheduler - [start,547] - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+21:25:06.202 [localhost-startStop-1] INFO  c.r.RuoYiServletInitializer - [logStarted,61] - Started RuoYiServletInitializer in 3.8 seconds (JVM running for 6.208)
+19-Oct-2025 21:25:06.222 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/ROOT.war]的部署已在[5,832]ms内完成
+19-Oct-2025 21:25:06.223 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/docs]
+19-Oct-2025 21:25:06.231 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/docs]的部署已在[8]毫秒内完成
+19-Oct-2025 21:25:06.231 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/manager]
+19-Oct-2025 21:25:06.246 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/manager]的部署已在[14]毫秒内完成
+19-Oct-2025 21:25:06.246 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/examples]
+19-Oct-2025 21:25:06.322 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/examples]的部署已在[76]毫秒内完成
+19-Oct-2025 21:25:06.323 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/host-manager]
+19-Oct-2025 21:25:06.329 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/Zhuanz/sync/code/nginx-learning/apps/apache-tomcat-8.5.81/webapps/host-manager]的部署已在[6]毫秒内完成
+19-Oct-2025 21:25:06.330 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+19-Oct-2025 21:25:06.336 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 5974 ms
+21:25:34.097 [http-nio-8080-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+21:25:34.097 [http-nio-8080-exec-1] DEBUG c.r.f.s.w.s.SpringSessionValidationScheduler - [enableSessionValidation,82] - Scheduling session validation job using Spring Scheduler with session validation interval of [10]ms...
+21:25:34.098 [http-nio-8080-exec-1] DEBUG c.r.f.s.w.s.SpringSessionValidationScheduler - [enableSessionValidation,104] - Session validation job successfully scheduled with Spring Scheduler.
+21:25:34.104 [http-nio-8080-exec-1] WARN  o.a.s.m.AbstractRememberMeManager - [onRememberedPrincipalFailure,449] - There was a failure while trying to retrieve remembered principals.  This could be due to a configuration problem or corrupted principals.  This could also be due to a recently changed encryption key, if you are using a shiro.ini file, this property would be 'securityManager.rememberMeManager.cipherKey' see: http://shiro.apache.org/web.html#Web-RememberMeServices. The remembered identity will be forgotten and not used for this request.
+21:25:34.106 [http-nio-8080-exec-1] WARN  o.a.s.m.DefaultSecurityManager - [getRememberedIdentity,618] - Delegate RememberMeManager instance of type [org.apache.shiro.web.mgt.CookieRememberMeManager] threw an exception during getRememberedPrincipals().
+org.apache.shiro.crypto.CryptoException: Unable to execute 'doFinal' with cipher instance [Cipher.AES/GCM/NoPadding, mode: decryption, algorithm from: SunJCE].
+	at org.apache.shiro.crypto.JcaCipherService.crypt(JcaCipherService.java:462)
+	at org.apache.shiro.crypto.JcaCipherService.crypt(JcaCipherService.java:445)
+	at org.apache.shiro.crypto.JcaCipherService.decrypt(JcaCipherService.java:390)
+	at org.apache.shiro.crypto.JcaCipherService.decrypt(JcaCipherService.java:382)
+	at org.apache.shiro.mgt.AbstractRememberMeManager.decrypt(AbstractRememberMeManager.java:482)
+	at org.apache.shiro.mgt.AbstractRememberMeManager.convertBytesToPrincipals(AbstractRememberMeManager.java:419)
+	at org.apache.shiro.mgt.AbstractRememberMeManager.getRememberedPrincipals(AbstractRememberMeManager.java:386)
+	at org.apache.shiro.mgt.DefaultSecurityManager.getRememberedIdentity(DefaultSecurityManager.java:613)
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolvePrincipals(DefaultSecurityManager.java:501)
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:347)
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:845)
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:126)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:64)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:543)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:367)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:639)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:882)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1691)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: javax.crypto.AEADBadTagException: Tag mismatch!
+	at java.base/com.sun.crypto.provider.GaloisCounterMode$GCMDecrypt.doFinal(GaloisCounterMode.java:1395)
+	at java.base/com.sun.crypto.provider.GaloisCounterMode.engineDoFinal(GaloisCounterMode.java:406)
+	at java.base/javax.crypto.Cipher.doFinal(Cipher.java:2205)
+	at org.apache.shiro.crypto.JcaCipherService.crypt(JcaCipherService.java:459)
+	... 55 common frames omitted
+21:25:34.123 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+21:25:34.160 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:35.102 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:25:35.111 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+21:25:35.125 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-19 20:55:35(String)
+21:25:35.133 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 1
+21:25:35.134 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+21:25:35.134 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 4fd6bb24-0ed2-40ff-acf0-f4891afcaecd(String)
+21:25:35.135 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 1
+21:25:35.136 [schedule-pool-1] DEBUG c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,134] - Invalidated session with id [4fd6bb24-0ed2-40ff-acf0-f4891afcaecd] (stopped)
+21:25:35.136 [schedule-pool-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:25:35.136 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+21:25:35.137 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 4fd6bb24-0ed2-40ff-acf0-f4891afcaecd(String)
+21:25:35.139 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 1
+21:25:35.140 [schedule-pool-1] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - ==>  Preparing: delete from sys_user_online where sessionId = ?
+21:25:35.141 [schedule-pool-1] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - ==> Parameters: 4fd6bb24-0ed2-40ff-acf0-f4891afcaecd(String)
+21:25:35.158 [schedule-pool-1] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - <==    Updates: 1
+21:25:35.158 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. [1] sessions were stopped.
+21:25:38.755 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:44.065 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==>  Preparing: select u.user_id, u.dept_id, u.login_name, u.user_name, u.user_type, u.email, u.avatar, u.phonenumber, u.sex, u.password, u.salt, u.status, u.del_flag, u.login_ip, u.login_date, u.pwd_update_date, u.create_time, u.remark, d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.status as dept_status, r.role_id, r.role_name, r.role_key, r.role_sort, r.data_scope, r.status as role_status from sys_user u left join sys_dept d on u.dept_id = d.dept_id left join sys_user_role ur on u.user_id = ur.user_id left join sys_role r on r.role_id = ur.role_id where u.login_name = ?
+21:25:44.069 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==> Parameters: admin(String)
+21:25:44.077 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - <==      Total: 1
+21:25:44.092 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==>  Preparing: update sys_user SET login_ip = ?, login_date = ?, update_time = sysdate() where user_id = ?
+21:25:44.095 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==> Parameters: 127.0.0.1(String), 2025-10-19 21:25:44.09(Timestamp), 1(Long)
+21:25:44.103 [http-nio-8080-exec-8] DEBUG c.r.s.m.S.updateUser - [debug,137] - <==    Updates: 1
+21:25:44.104 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:25:44.106 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+21:25:44.148 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+21:25:44.150 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+21:25:44.159 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+21:25:44.161 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+21:25:44.162 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:44.162 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:44.162 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:44.162 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:44.162 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:44.162 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:44.162 [http-nio-8080-exec-9] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:25:44.163 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 407ccf5e-2a0e-4830-95f1-20a739bc7a49(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-19 21:25:38.748(Timestamp), 2025-10-19 21:25:44.141(Timestamp), 1800000(Long)
+21:25:44.170 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 1
+21:25:44.182 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 0(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 登录成功(String)
+21:25:44.184 [schedule-pool-2] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+21:25:46.379 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user_online
+21:25:46.380 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==> Parameters: 
+21:25:46.386 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - <==      Total: 1
+21:25:46.390 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==>  Preparing: SELECT sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time FROM sys_user_online order by last_access_time desc LIMIT ?
+21:25:46.392 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==> Parameters: 10(Integer)
+21:25:46.395 [http-nio-8080-exec-2] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - <==      Total: 1
+21:25:47.132 [http-nio-8080-exec-3] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:47.134 [http-nio-8080-exec-3] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:47.144 [http-nio-8080-exec-3] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:25:47.205 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_job
+21:25:47.206 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - ==> Parameters: 
+21:25:47.207 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - <==      Total: 1
+21:25:47.209 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==>  Preparing: SELECT job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, remark FROM sys_job order by create_time desc LIMIT ?
+21:25:47.210 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==> Parameters: 10(Integer)
+21:25:47.214 [http-nio-8080-exec-4] DEBUG c.r.q.m.S.selectJobList - [debug,137] - <==      Total: 3
+21:29:52.570 [schedule-pool-4] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 245261
+21:29:52.571 [schedule-pool-4] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 248401
+21:29:52.572 [schedule-pool-4] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 248413
+21:29:52.572 [schedule-pool-4] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 287896
+21:29:52.573 [schedule-pool-4] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 287918
+21:29:52.713 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+21:29:52.714 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 407ccf5e-2a0e-4830-95f1-20a739bc7a49(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-19 21:25:38.748(Timestamp), 2025-10-19 21:29:52.439(Timestamp), 1800000(Long)
+21:29:52.728 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 2
+21:29:53.496 [http-nio-8080-exec-7] DEBUG c.r.g.m.G.selectGenTableList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM gen_table
+21:29:53.497 [http-nio-8080-exec-7] DEBUG c.r.g.m.G.selectGenTableList_COUNT - [debug,137] - ==> Parameters: 
+21:29:53.505 [http-nio-8080-exec-7] DEBUG c.r.g.m.G.selectGenTableList_COUNT - [debug,137] - <==      Total: 1
+21:30:01.366 [http-nio-8080-exec-10] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:30:01.381 [http-nio-8080-exec-10] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:30:01.492 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectConfigList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_config
+21:30:01.493 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectConfigList_COUNT - [debug,137] - ==> Parameters: 
+21:30:01.497 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectConfigList_COUNT - [debug,137] - <==      Total: 1
+21:30:01.499 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - ==>  Preparing: SELECT config_id, config_name, config_key, config_value, config_type, create_by, create_time, update_by, update_time, remark FROM sys_config order by config_id asc LIMIT ?
+21:30:01.499 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - ==> Parameters: 10(Integer)
+21:30:01.509 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectConfigList - [debug,137] - <==      Total: 10
+21:30:02.241 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:30:02.248 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:30:02.249 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:30:02.338 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectNoticeList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_notice
+21:30:02.340 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectNoticeList_COUNT - [debug,137] - ==> Parameters: 
+21:30:02.372 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectNoticeList_COUNT - [debug,137] - <==      Total: 1
+21:30:02.374 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectNoticeList - [debug,137] - ==>  Preparing: select notice_id, notice_title, notice_type, notice_content, status, create_by, create_time, update_by, update_time, remark from sys_notice LIMIT ?
+21:30:02.375 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectNoticeList - [debug,137] - ==> Parameters: 10(Integer)
+21:30:02.377 [http-nio-8080-exec-3] DEBUG c.r.s.m.S.selectNoticeList - [debug,137] - <==      Total: 2
+21:31:23.260 [schedule-pool-3] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 80882
+21:31:23.329 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+21:31:23.333 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 407ccf5e-2a0e-4830-95f1-20a739bc7a49(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-19 21:25:38.748(Timestamp), 2025-10-19 21:31:23.227(Timestamp), 1800000(Long)
+21:31:23.351 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 2
+21:35:35.095 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:35:35.127 [schedule-pool-1] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 251773
+21:35:35.241 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+21:35:35.244 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-19 21:05:35(String)
+21:35:35.283 [schedule-pool-1] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+21:35:35.284 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+21:36:17.492 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+21:36:17.494 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 407ccf5e-2a0e-4830-95f1-20a739bc7a49(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-19 21:25:38.748(Timestamp), 2025-10-19 21:36:17.48(Timestamp), 1800000(Long)
+21:36:17.583 [schedule-pool-4] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 2
+21:36:17.584 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+21:36:17.585 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+21:36:17.592 [http-nio-8080-exec-7] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+21:36:17.592 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:36:17.593 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:36:17.593 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:36:17.593 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:36:17.593 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:36:17.593 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:36:17.593 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:37:11.581 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:37:15.932 [http-nio-8080-exec-7] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:41:25.278 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:41:37.891 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:42:23.717 [http-nio-8080-exec-10] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:42:25.825 [http-nio-8080-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:42:25.858 [http-nio-8080-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:43:05.177 [http-nio-8080-exec-10] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:43:57.464 [schedule-pool-3] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 459873
+21:43:57.468 [schedule-pool-3] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 459885
+21:43:57.540 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+21:43:57.541 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 407ccf5e-2a0e-4830-95f1-20a739bc7a49(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-19 21:25:38.748(Timestamp), 2025-10-19 21:43:57.427(Timestamp), 1800000(Long)
+21:43:57.610 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 2
+21:45:35.074 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:45:35.086 [schedule-pool-2] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 97474
+21:45:35.128 [schedule-pool-2] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+21:45:35.130 [schedule-pool-2] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-19 21:15:35(String)
+21:45:35.140 [schedule-pool-2] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+21:45:35.140 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+21:51:55.600 [http-nio-8080-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:51:55.610 [schedule-pool-7] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Logout][退出成功]
+21:51:55.665 [schedule-pool-7] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 380525
+21:51:55.721 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+21:51:55.722 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 407ccf5e-2a0e-4830-95f1-20a739bc7a49(String)
+21:51:55.735 [schedule-pool-7] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+21:51:55.736 [schedule-pool-7] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 0(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 退出成功(String)
+21:51:55.742 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 1
+21:51:55.743 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - ==>  Preparing: delete from sys_user_online where sessionId = ?
+21:51:55.743 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - ==> Parameters: 407ccf5e-2a0e-4830-95f1-20a739bc7a49(String)
+21:51:55.751 [schedule-pool-7] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+21:51:55.751 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - <==    Updates: 1
+21:51:55.758 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:55.850 [http-nio-8080-exec-10] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:59.925 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==>  Preparing: select u.user_id, u.dept_id, u.login_name, u.user_name, u.user_type, u.email, u.avatar, u.phonenumber, u.sex, u.password, u.salt, u.status, u.del_flag, u.login_ip, u.login_date, u.pwd_update_date, u.create_time, u.remark, d.dept_id, d.parent_id, d.ancestors, d.dept_name, d.order_num, d.leader, d.status as dept_status, r.role_id, r.role_name, r.role_key, r.role_sort, r.data_scope, r.status as role_status from sys_user u left join sys_dept d on u.dept_id = d.dept_id left join sys_user_role ur on u.user_id = ur.user_id left join sys_role r on r.role_id = ur.role_id where u.login_name = ?
+21:51:59.927 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - ==> Parameters: admin(String)
+21:51:59.935 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.selectUserByLoginName - [debug,137] - <==      Total: 1
+21:51:59.938 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==>  Preparing: update sys_user SET login_ip = ?, login_date = ?, update_time = sysdate() where user_id = ?
+21:51:59.940 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.updateUser - [debug,137] - ==> Parameters: 127.0.0.1(String), 2025-10-19 21:51:59.937(Timestamp), 1(Long)
+21:51:59.945 [http-nio-8080-exec-9] DEBUG c.r.s.m.S.updateUser - [debug,137] - <==    Updates: 1
+21:51:59.949 [schedule-pool-4] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:51:59.949 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==>  Preparing: insert into sys_logininfor (login_name, status, ipaddr, login_location, browser, os, msg, login_time) values (?, ?, ?, ?, ?, ?, ?, sysdate())
+21:51:59.950 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - ==> Parameters: admin(String), 0(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), 登录成功(String)
+21:51:59.952 [schedule-pool-4] DEBUG c.r.s.m.S.insertLogininfor - [debug,137] - <==    Updates: 1
+21:51:59.967 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==>  Preparing: select distinct m.menu_id, m.parent_id, m.menu_name, m.url, m.visible, m.is_refresh, ifnull(m.perms,'') as perms, m.target, m.menu_type, m.icon, m.order_num, m.create_time from sys_menu m where m.menu_type in ('M', 'C') and m.visible = 0 order by m.parent_id, m.order_num
+21:51:59.969 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - ==> Parameters: 
+21:51:59.973 [http-nio-8080-exec-1] DEBUG c.r.s.m.S.selectMenuNormalAll - [debug,137] - <==      Total: 23
+21:51:59.974 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:59.974 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:59.974 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:59.974 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:59.974 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:59.975 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:59.975 [http-nio-8080-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:51:59.977 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+21:51:59.978 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 678a62ce-6cfd-4a9d-83bc-b85e8c7cf8c8(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-19 21:51:55.832(Timestamp), 2025-10-19 21:51:59.965(Timestamp), 1800000(Long)
+21:51:59.982 [schedule-pool-3] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 1
+21:52:06.274 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_user_online
+21:52:06.276 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - ==> Parameters: 
+21:52:06.281 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList_COUNT - [debug,137] - <==      Total: 1
+21:52:06.288 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==>  Preparing: SELECT sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time FROM sys_user_online order by last_access_time desc LIMIT ?
+21:52:06.289 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - ==> Parameters: 10(Integer)
+21:52:06.291 [http-nio-8080-exec-4] DEBUG c.r.s.m.S.selectUserOnlineList - [debug,137] - <==      Total: 1
+21:52:06.955 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:52:06.956 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:52:06.963 [http-nio-8080-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:52:07.128 [http-nio-8080-exec-8] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - ==>  Preparing: SELECT count(0) FROM sys_job
+21:52:07.129 [http-nio-8080-exec-8] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - ==> Parameters: 
+21:52:07.143 [http-nio-8080-exec-8] DEBUG c.r.q.m.S.selectJobList_COUNT - [debug,137] - <==      Total: 1
+21:52:07.147 [http-nio-8080-exec-8] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==>  Preparing: SELECT job_id, job_name, job_group, invoke_target, cron_expression, misfire_policy, concurrent, status, create_by, create_time, remark FROM sys_job order by create_time desc LIMIT ?
+21:52:07.148 [http-nio-8080-exec-8] DEBUG c.r.q.m.S.selectJobList - [debug,137] - ==> Parameters: 10(Integer)
+21:52:07.149 [http-nio-8080-exec-8] DEBUG c.r.q.m.S.selectJobList - [debug,137] - <==      Total: 3
+21:55:35.058 [schedule-pool-8] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:55:35.074 [schedule-pool-8] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 207921
+21:55:35.077 [schedule-pool-8] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 219325
+21:55:35.102 [schedule-pool-8] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+21:55:35.105 [schedule-pool-8] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-19 21:25:35(String)
+21:55:35.110 [schedule-pool-8] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+21:55:35.111 [schedule-pool-8] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:00:22.476 [schedule-pool-2] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 287365
+22:00:22.548 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==>  Preparing: replace into sys_user_online(sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+22:00:22.550 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - ==> Parameters: 678a62ce-6cfd-4a9d-83bc-b85e8c7cf8c8(String), admin(String), 研发部门(String), 127.0.0.1(String), 内网IP(String), Chrome 14(String), Mac OS X(String), on_line(String), 2025-10-19 21:51:55.832(Timestamp), 2025-10-19 22:00:22.302(Timestamp), 1800000(Long)
+22:00:22.587 [schedule-pool-2] DEBUG c.r.s.m.S.saveOnline - [debug,137] - <==    Updates: 2
+22:05:35.044 [schedule-pool-10] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:05:35.072 [schedule-pool-10] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 312481
+22:05:35.179 [schedule-pool-10] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:05:35.182 [schedule-pool-10] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-19 21:35:35(String)
+22:05:35.209 [schedule-pool-10] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+22:05:35.209 [schedule-pool-10] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:15:35.034 [schedule-pool-11] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:15:35.067 [schedule-pool-11] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 599856
+22:15:35.150 [schedule-pool-11] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:15:35.153 [schedule-pool-11] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-19 21:45:35(String)
+22:15:35.172 [schedule-pool-11] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+22:15:35.172 [schedule-pool-11] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:25:35.011 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:25:35.024 [schedule-pool-7] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 599851
+22:25:35.053 [schedule-pool-7] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:25:35.055 [schedule-pool-7] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-19 21:55:35(String)
+22:25:35.057 [schedule-pool-7] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 0
+22:25:35.058 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. No sessions were stopped.
+22:35:35.000 [schedule-pool-12] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:35:35.029 [schedule-pool-12] WARN  c.a.d.p.DruidAbstractDataSource - [testConnectionInternal,1494] - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ry?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8, version : 1.2.8, lastPacketReceivedIdleMillis : 599968
+22:35:35.116 [schedule-pool-12] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online o WHERE o.last_access_time <= ? ORDER BY o.last_access_time ASC
+22:35:35.120 [schedule-pool-12] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - ==> Parameters: 2025-10-19 22:05:35(String)
+22:35:35.137 [schedule-pool-12] DEBUG c.r.s.m.S.selectOnlineByExpired - [debug,137] - <==      Total: 1
+22:35:35.138 [schedule-pool-12] DEBUG c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,134] - Invalidated session with id [678a62ce-6cfd-4a9d-83bc-b85e8c7cf8c8] (stopped)
+22:35:35.138 [schedule-pool-12] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:35:35.139 [schedule-pool-12] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==>  Preparing: select sessionId, login_name, dept_name, ipaddr, login_location, browser, os, status, start_timestamp, last_access_time, expire_time from sys_user_online where sessionId = ?
+22:35:35.140 [schedule-pool-12] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - ==> Parameters: 678a62ce-6cfd-4a9d-83bc-b85e8c7cf8c8(String)
+22:35:35.141 [schedule-pool-12] DEBUG c.r.s.m.S.selectOnlineById - [debug,137] - <==      Total: 1
+22:35:35.142 [schedule-pool-12] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - ==>  Preparing: delete from sys_user_online where sessionId = ?
+22:35:35.142 [schedule-pool-12] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - ==> Parameters: 678a62ce-6cfd-4a9d-83bc-b85e8c7cf8c8(String)
+22:35:35.155 [schedule-pool-12] DEBUG c.r.s.m.S.deleteOnlineById - [debug,137] - <==    Updates: 1
+22:35:35.155 [schedule-pool-12] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,165] - Finished invalidation session. [1] sessions were stopped.
+19-Oct-2025 22:41:49.373 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+19-Oct-2025 22:41:49.375 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+19-Oct-2025 22:41:50.382 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ java.base@17.0.15/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@17.0.15/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.15/java.lang.Thread.run(Thread.java:840)]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-1]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-2]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-3]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.473 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-4]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-5]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-6]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-7]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-8]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-9]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.474 警告 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[ROOT]似乎启动了一个名为[quartzScheduler_Worker-10]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@17.0.15/java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)]
+19-Oct-2025 22:41:50.475 严重 [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[ROOT]创建了一个ThreadLocal，其键类型为[com.sun.jna.Structure$2]（值为[com.sun.jna.Structure$2@574a8606]），值类型为[com.sun.jna.Structure.StructureSet]（值为[[]），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+19-Oct-2025 22:41:50.485 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+19-Oct-2025 22:41:50.811 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+	java.lang.IllegalStateException: 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1440)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1065)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:840)
+19-Oct-2025 22:42:00.491 警告 [main] org.apache.tomcat.util.net.Acceptor.stop 接收器线程[http-nio-8080-Acceptor]未能干净的停止
+19-Oct-2025 22:42:00.498 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
